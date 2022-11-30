@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-for idx in range(97, 123):
-    if idx == 101 or idx == 113:
-        continue
-    else:
-        print("{}".format(chr(idx)), end ="")
+for char in range(26):
+    if char != 4 and char != 16:
+        print("{:s}".format(chr(char + ord("a"))), end="")
