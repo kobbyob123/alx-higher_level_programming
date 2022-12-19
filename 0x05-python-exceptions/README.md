@@ -7,7 +7,7 @@ This is how it's used:
 
 ```Python
 try:
-    code here
+    # code here
 except Errorhere:
-    code to run if raised error occurs
+    # code to run when error occurs
 ``` 
