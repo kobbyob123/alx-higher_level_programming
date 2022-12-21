@@ -25,8 +25,9 @@ class Robot():
 
     def talk(self):
         """Introduces itself"""
-        print("Hello human, my name is {} and I'm {} in color.".format(self.name, self.color))
+        print("Hello human, my name is {} and I'm {} in color.".format(self.model, self.color))
 
- a = Robot("DX-149-T", "Green")
- a.talk()
+a = Robot("DX-149-T", "Green")
+ 
+a.talk()
 ```
