@@ -5,9 +5,9 @@ A class is a representation of an entire object or simply the generalization of 
 * An example :
 
 ```text
-There is a general type of animal called Dogs. But then there are classes of dogs based on their differences
+There is a general type of animal called Dog. But then there are unique instances or species (objects in this case) of dogs because of some differences
 
-Some dogs are big, others are small, they vary by color and their purpose.
+Some dogs are big, others are small, they vary by color and their also by purpose be it entertainment or security.
 ```
 
 In the same way, classes represent a generalization and objects represent a specialization
