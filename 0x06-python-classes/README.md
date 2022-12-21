@@ -13,6 +13,6 @@ class Robot():
         # some code here
         # another code here
 
- a = Robot
+ a = Robot()
  a.talk()
 ```
