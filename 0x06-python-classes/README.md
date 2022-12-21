@@ -28,6 +28,12 @@ class Robot():
         print("Hello human, my name is {} and I'm {} in color.".format(self.model, self.color))
 
 a = Robot("DX-149-T", "Green")
+# a is now an object or instance of the class Robot with it's own unique feature like model and color
  
 a.talk()
+
+b = Robot("M9-457-G", "Red")
+# b is also an object or instance of the class Robot with different features from a
+ 
+b.talk()
 ```
