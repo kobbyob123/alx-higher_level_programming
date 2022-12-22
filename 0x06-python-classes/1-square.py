@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Does some Private Stuff"""
+"""A module about a Square"""
 
 
 class Square:
-    """A square"""
+    """A class that defines a square"""
     def __init__(self, size):
         self.__size = size
