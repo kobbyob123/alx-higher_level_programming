@@ -1,0 +1,68 @@
+==================================================
+This is a test file for the module '4-print_square'
+==================================================
+
+This module works by accepting an int and prints
+an nxn square
+
+accepted arguments types:
+i. integers -> int
+
+Import the module
+>>> import sys
+>>> sys.path.insert(1, '../')
+>>> lib = __import__("4-print_square")
+>>> print_square = lib.print_square
+
+### Correct input
+>>> print_square(3)
+###
+###
+###
+
+
+### Wrong Input
+>>> print_square(-1) # negative Number
+Traceback (most recent call last):
+...
+ValueError: size must be >= 0
+
+>>> print_square(4.5) # floating point number
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square('string') # string input
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square([1, 2, 3]) # list
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square({}) # Dictionary
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square((12,23)) # tuple
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(None) # None
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square() # No input
+Traceback (most recent call last):
+...
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+>>> print_square(3,3) # illegal number of arguments
+Traceback (most recent call last):
+...
+TypeError: print_square() takes 1 positional argument but 2 were given
